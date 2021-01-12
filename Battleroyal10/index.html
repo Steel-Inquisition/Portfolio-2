@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sample</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <h1>Battle Royal</h1>
+    <span id="selection">
+      <button id="game">START RANDOM GAME</button>
+
+
+      <p>
+        Generate battle from text file!
+        <input type = "file" accept=".txt" onchange="readFile(this)">
+      </p>
+      
+
+      <ul>
+        <li>Press 1 to view log</li>
+        <li>Press 2 to view full log</li>
+      </ul>
+
+    </span>
+  </div>
+
+  
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <ul id="log">
+        <li><strong>Game Log!</strong></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- The Modal2 -->
+  <div id="myModal2" class="modal2">
+
+    <!-- Modal content2 -->
+    <div class="modal-content2">
+      <ul id="log2">
+        <li><strong> Full Game Log!</strong></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- THIS IS NOT MY CODE AND I TOOK IT FROM: https://www.thecodehubs.com/generate-text-file-using-plain-javascript/ -->
+
+  <button id="btnCreateFile">GENERATE GAME FROM FILE</button>
+  <a download="info.txt" id="downloadFile" style="display: none">Download</a>
+  <div id="container"></div>
+
+  <!-- Load JavaScript -->
+  <script src="js/random-library.js"></script>
+  <script src="js/generateMap.js"></script>
+  <script src="js/generate.js"></script>
+  <script src="js/player_input.js"></script>
+  <script src="js/gameLogic.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+
+
+</html>

@@ -1,0 +1,7 @@
+0
+Alice
+eval(10)
+{ "weapon": "Sword", "type": "physical", "ability": "", "deathNote": "was sliced in half by a sword!" }
+{ "personality": "Brain Dead", "bonus": "", "applied": "offense" }
+11
+0
